@@ -1,0 +1,82 @@
+* {
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Serif', serif;
+font-weight: 600;
+}
+#icone-carrinho {
+    height: 100px;
+}
+
+#titulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+#titulo h1 {
+    font-size: 60px;
+}
+
+/* div compras */
+#compras {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* titulo das compras */
+#titulo-compras {
+    display: flex;
+    font-size: 30px;
+}
+
+#label-quantidade {
+    width: 25%;
+}
+#label-valor {
+    width: 25%;
+}
+#label-produto {
+    width: 50%;
+}
+
+/* itens das compras */
+.item-compra {
+    background-color: #d9d9d9;
+    height: 60px;
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.quantidade {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    gap: 20px;
+
+}
+.valor {
+    width: 25%;
+    font-size: 30px;
+}
+.produto {
+    width: 50%;
+    font-size: 30px;
+}
+
+.operacao {
+    width: 30px;
+}
+
+.quantidade p {
+    background-color: white;
+    width: 50px;
+    height: 40px;
+    border-radius: 10px;
+}
+
